@@ -1,0 +1,11 @@
+framework module PBCalendar {
+  umbrella header "PBCalendar.h"
+
+  export *
+  module * { export * }
+}
+
+module PBCalendar.Swift {
+    header "PBCalendar-Swift.h"
+    requires objc
+}
